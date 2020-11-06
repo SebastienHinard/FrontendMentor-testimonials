@@ -67,6 +67,12 @@ body {
   max-width: 455px;
 }
 
+@media (min-width: 991px) {
+  .testimonial {
+    max-width: unset;
+  }
+}
+
 .testimonial__header {
   display: -webkit-box;
   display: -ms-flexbox;
