@@ -57,9 +57,10 @@ body {
   background: $white;
   padding: 2em 2.8em 3em;
   color: $dark;
-  margin: 2em 0;
+  margin: 2em auto;
   border-radius: 10px;
   transition: 0.3s ease-in-out;
+  max-width: 455px;
 
   &__header {
     display: flex;
@@ -123,7 +124,6 @@ body {
   &:focus {
     transform: translateY(-0.5em);
     box-shadow: 0 0.5em 1em $dark;
-    cursor: pointer;
   }
 
   @media (min-width: 992px) {

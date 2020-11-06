@@ -60,10 +60,11 @@ body {
   background: white;
   padding: 2em 2.8em 3em;
   color: #48556a;
-  margin: 2em 0;
+  margin: 2em auto;
   border-radius: 10px;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  max-width: 455px;
 }
 
 .testimonial__header {
@@ -133,7 +134,6 @@ body {
           transform: translateY(-0.5em);
   -webkit-box-shadow: 0 0.5em 1em #48556a;
           box-shadow: 0 0.5em 1em #48556a;
-  cursor: pointer;
 }
 
 @media (min-width: 992px) {
